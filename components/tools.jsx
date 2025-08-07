@@ -1,7 +1,68 @@
 import React from "react";
-import { Marquee, MarqueeContent, MarqueeFade, MarqueeItem } from "./ui/kibo-ui/marquee";
+import {
+  Marquee,
+  MarqueeContent,
+  MarqueeFade,
+  MarqueeItem,
+} from "./ui/kibo-ui/marquee";
+import reactjs from "../public/images/react-seeklogo.svg";
+import nextjs from "../public/images/next-js-seeklogo.svg";
+import django from "../public/images/django-seeklogo.svg";
+import htmx from "../public/images/htmx-seeklogo.svg";
+import redis from "../public/images/redis-seeklogo.svg";
+import docker from "../public/images/docker-seeklogo.svg";
+import git from "../public/images/git-seeklogo.svg";
+import js from "../public/images/javascript-js-seeklogo.svg";
+import python from "../public/images/python-seeklogo.svg";
+import postgres from "../public/images/postgresql-seeklogo.svg";
+import tailwind from "../public/images/tailwind-css-seeklogo.svg";
+import webflow from "../public/images/webflow-2023-seeklogo.svg";
+import Image from "next/image";
+// import nextjs from "../public/images/nextjs.svg";
 
 export default function Tools() {
+  const tools = [
+    {
+      alt: "React logo",
+      imagePath: reactjs,
+    },
+    {
+      alt: "Nextjs logo",
+      imagePath: nextjs,
+    },
+    {
+      alt: "django logo",
+      imagePath: django,
+    },
+    {
+      alt: "redis logo",
+      imagePath: redis,
+    },
+    {
+      alt: "docker logo",
+      imagePath: docker,
+    },
+    {
+      alt: "git logo",
+      imagePath: git,
+    },
+    {
+      alt: "javascript logo",
+      imagePath: js,
+    },
+    {
+      alt: "python logo",
+      imagePath: python,
+    },
+    {
+      alt: "postgreql logo",
+      imagePath: postgres,
+    },
+    {
+      alt: "tailwind css logo",
+      imagePath: tailwind,
+    },
+  ];
   return (
     <section className="pt-20 max-w-[1024px] mx-auto px-4">
       <h2 className="color-foreground text-3xl mb-5">Tools</h2>
@@ -10,13 +71,9 @@ export default function Tools() {
           <MarqueeFade side="left" />
           <MarqueeFade side="right" />
           <MarqueeContent>
-            {new Array(10).fill(null).map((_, index) => (
-              <MarqueeItem className="h-32 w-32" key={index}>
-                <img
-                  alt={`Placeholder ${index}`}
-                  className="overflow-hidden rounded-full"
-                  src={`https://placehold.co/128x128?random=${index}`}
-                />
+            {tools.map((tool, index) => (
+              <MarqueeItem className="h-35 w-35" key={index}>
+                <Image src={tool.imagePath} height={128} width={128} />
               </MarqueeItem>
             ))}
           </MarqueeContent>

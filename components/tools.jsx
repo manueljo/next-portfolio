@@ -8,7 +8,6 @@ import {
 import reactjs from "../public/images/react-seeklogo.svg";
 import nextjs from "../public/images/next-js-seeklogo.svg";
 import django from "../public/images/django-seeklogo.svg";
-import htmx from "../public/images/htmx-seeklogo.svg";
 import redis from "../public/images/redis-seeklogo.svg";
 import docker from "../public/images/docker-seeklogo.svg";
 import git from "../public/images/git-seeklogo.svg";
@@ -16,9 +15,7 @@ import js from "../public/images/javascript-js-seeklogo.svg";
 import python from "../public/images/python-seeklogo.svg";
 import postgres from "../public/images/postgresql-seeklogo.svg";
 import tailwind from "../public/images/tailwind-css-seeklogo.svg";
-import webflow from "../public/images/webflow-2023-seeklogo.svg";
 import Image from "next/image";
-// import nextjs from "../public/images/nextjs.svg";
 
 export default function Tools() {
   const tools = [

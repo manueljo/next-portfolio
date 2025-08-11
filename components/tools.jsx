@@ -70,7 +70,7 @@ export default function Tools() {
           <MarqueeContent>
             {tools.map((tool, index) => (
               <MarqueeItem className="h-35 w-35" key={index}>
-                <Image src={tool.imagePath} height={128} width={128} />
+                <Image src={tool.imagePath} alt={tool.alt} height={128} width={128} />
               </MarqueeItem>
             ))}
           </MarqueeContent>

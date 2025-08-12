@@ -18,7 +18,7 @@ export default function Home() {
     <BackgroundBeamsWithCollision className={'h-auto pt-24 px-4'}>
       <div className="h-full max-w-[1024px] w-full mx-auto px-4 flex items-center justify-between flex-wrap">
         <div>
-          <h6 className="text-3xl mt-5 mb-5 font-mono">Howdy 👋, I&apos;m</h6>
+          <h6 className="text-4xl mt-5 mb-5 font-birthstone">Howdy 👋, I&apos;m</h6>
           <h1 className="lg:text-8xl md:text-6xl text-5xl font-sans font-bold mb-5">Emmanuel<br />Joshua</h1>
           <h3 className="text-2xl  mb-8 font-mono">A Software Engineer.</h3>
           <div className="flex gap-4 flex-wrap mb-8">

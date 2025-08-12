@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className=" fixed top-3 h-16 p-4 dark:text-white text-black flex items-center justify-between left-1/2 -translate-x-1/2 max-w-[1024px] w-full backdrop-blur-sm bg-background/80 z-10 mt-0.5 rounded-lg">
         <div>
-            <h2 className="font-mono font-bold">MANUELJO</h2>
+            <h2 className="font-birthstone font-bold">MANUELJO</h2>
         </div>
         <nav className="flex justify-end items-center gap-4">
             <Link href="https://www.linkedin.com/in/emmanuel-joshua-okon/" target="_blank" className="text-sm"><Linkedin/></Link>

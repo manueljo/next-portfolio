@@ -22,8 +22,8 @@ export default function Home() {
           <h1 className="lg:text-8xl md:text-6xl text-5xl font-sans font-bold mb-5">Emmanuel<br />Joshua</h1>
           <h3 className="text-2xl  mb-8 font-mono">A Software Engineer.</h3>
           <div className="flex gap-4 flex-wrap mb-8">
-            <Button className={"w-[200px] font-mono"}>Resume</Button>
-            <Link href={"mailto:manuel.jojoe@gmail.com"} className={"w-[200px] font-mono bg-accent text-foreground border-2 border-accent-foreground flex items-center justify-center rounded-md h-9"}>Reach Out</Link>
+            <Button className={"md:max-w-[200px] font-mono w-full"}>Resume</Button>
+            <Link href={"mailto:manuel.jojoe@gmail.com"} className={"md:max-w-[200px] w-full font-mono bg-accent text-foreground border-2 border-accent-foreground flex items-center justify-center rounded-md h-9"}>Reach Out</Link>
           </div>
         </div>
         <div className="relative w-[300px] self-end flex flex-col justify-end">

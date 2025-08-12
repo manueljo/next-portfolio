@@ -8,6 +8,8 @@ import { Experience } from "@/components/experience";
 import Projects from "@/components/projects";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,6 +21,10 @@ export default function Home() {
           <h6 className="text-3xl mt-5 mb-5 font-mono">Howdy 👋, I&apos;m</h6>
           <h1 className="lg:text-8xl md:text-6xl text-5xl font-sans font-bold mb-5">Emmanuel<br />Joshua</h1>
           <h3 className="text-2xl  mb-8 font-mono">A Software Engineer.</h3>
+          <div className="flex gap-4">
+            <Button className={"w-[200px] font-mono"}>Resume</Button>
+            <Link href={""} className={"w-[200px] font-mono bg-accent text-foreground border-2 border-accent-foreground flex items-center justify-center rounded-md"}>Reach Out</Link>
+          </div>
         </div>
         <div className="relative w-[300px] self-end flex flex-col justify-end">
           <Image src={hero} alt="Portfolio hero image" />

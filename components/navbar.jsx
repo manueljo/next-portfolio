@@ -1,4 +1,4 @@
-import { Github, Icon, Linkedin } from "lucide-react"
+import { Github, Icon, Linkedin, Twitter } from "lucide-react"
 import { ModeToggle } from "./mode-toggle"
 import Link from "next/link"
 
@@ -9,8 +9,9 @@ const Navbar = () => {
             <h2 className="">manueljo</h2>
         </div>
         <nav className="flex justify-end items-center gap-4">
-            <Link href="github.com" className="text-sm"><Linkedin/></Link>
-            <Link href="github.com" className="text-sm"><Github/></Link>
+            <Link href="https://www.linkedin.com/in/emmanuel-joshua-okon/" target="_blank" className="text-sm"><Linkedin/></Link>
+            <Link href="https://twitter.com/ejo_manuel" target="_blank" className="text-sm"><Twitter/></Link>
+            <Link href="https://github.com/manueljo" target="_blank" className="text-sm"><Github/></Link>
             <ModeToggle />
         </nav>
     </header>

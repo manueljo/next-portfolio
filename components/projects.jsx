@@ -17,6 +17,14 @@ const Projects = () => {
         </div>
         <div className="p-2.5 bg-accent-foreground text-accent rounded-2xl">
           <p>
+            LANAHEALTHCARE - Built and launched a demo B2B health platform designed to streamline communication and data sharing within the healthcare sector. The application provides a secure and centralized solution for managing business-to-business operations, from patient data to administrative tasks.
+          </p>
+          <div className="mt-2.5">
+            <Link href={'https://lana-business.onrender.com/'} target="_blank" className="text-accent-foreground bg-accent p-1 rounded-sm px-3">Check It Out</Link>
+          </div>
+        </div>
+        <div className="p-2.5 bg-accent-foreground text-accent rounded-2xl">
+          <p>
             FilmFlix is a dynamic movie directory that showcases the latest and trending films, built with React.js for the frontend and Appwrite for a robust backend. This architecture ensures a fast and seamless experience for users as they browse through popular and newly released titles.
           </p>
           <div className="mt-2.5">

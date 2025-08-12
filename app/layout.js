@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Birthstone, Tangerine } from "next/font/google";
+import { Geist, Geist_Mono, Birthstone } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -7,20 +7,12 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const tangerine = Tangerine({
-  variable: "--font-tangerine",
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
-});
-
 const birthstone = Birthstone({
   variable: "--font-birthstone",
   subsets: ["latin"],
   display: "swap",
   weight: "400",
 });
-
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
